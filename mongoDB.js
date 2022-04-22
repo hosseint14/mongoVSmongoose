@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 const url =
-  "mongodb+srv://hosseint14:d6dL0osrNSg2H5Nb@cluster0.riix9.mongodb.net/products?retryWrites=true&w=majority";
+  "mongodb+srv://hosseint14:password@cluster0.riix9.mongodb.net/products?retryWrites=true&w=majority";
 
 const postProduct = async (req, res, next) => {
   const newProduct = {
