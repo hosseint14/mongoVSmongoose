@@ -5,7 +5,7 @@ const Product = require("./models/product");
 
 mongoose
   .connect(
-    "mongodb+srv://hosseint14:d6dL0osrNSg2H5Nb@cluster0.riix9.mongodb.net/products?retryWrites=true&w=majority"
+    "mongodb+srv://hosseint14:password@cluster0.riix9.mongodb.net/products?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("connection successfull");
